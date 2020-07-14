@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1
+CMAKE_SOURCE_DIR = /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build
+CMAKE_BINARY_DIR = /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tools.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/tools.dir/flags.make
 
 CMakeFiles/tools.dir/tools.cpp.o: CMakeFiles/tools.dir/flags.make
 CMakeFiles/tools.dir/tools.cpp.o: ../tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tools.dir/tools.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tools.dir/tools.cpp.o -c /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tools.dir/tools.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tools.dir/tools.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/tools.cpp
 
 CMakeFiles/tools.dir/tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tools.dir/tools.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp > CMakeFiles/tools.dir/tools.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/tools.cpp > CMakeFiles/tools.dir/tools.cpp.i
 
 CMakeFiles/tools.dir/tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tools.dir/tools.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp -o CMakeFiles/tools.dir/tools.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/tools.cpp -o CMakeFiles/tools.dir/tools.cpp.s
 
 CMakeFiles/tools.dir/tools.cpp.o.requires:
 
@@ -91,7 +91,7 @@ tools_EXTERNAL_OBJECTS =
 libtools.a: CMakeFiles/tools.dir/tools.cpp.o
 libtools.a: CMakeFiles/tools.dir/build.make
 libtools.a: CMakeFiles/tools.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtools.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtools.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tools.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tools.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/tools.dir/clean:
 .PHONY : CMakeFiles/tools.dir/clean
 
 CMakeFiles/tools.dir/depend:
-	cd /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1 /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1 /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/tools.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1 /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1 /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/tools.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tools.dir/depend
 

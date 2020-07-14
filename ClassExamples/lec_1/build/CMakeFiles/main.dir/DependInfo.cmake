@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/main.cpp" "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/main.cpp" "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/tools.dir/DependInfo.cmake"
+  "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/tools.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/rebuild_cache.dir
-/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/edit_cache.dir
-/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/main.dir
-/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/tools.dir
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/rebuild_cache.dir
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/edit_cache.dir
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/main.dir
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/tools.dir

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp" "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build/CMakeFiles/tools.dir/tools.cpp.o"
+  "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/tools.cpp" "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_1/build/CMakeFiles/tools.dir/tools.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
