@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build",
+  "command": "/usr/bin/c++    -wall   -std=gnu++1z -o CMakeFiles/main.dir/main.cpp.o -c /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/main.cpp",
+  "file": "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/main.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/build",
+  "command": "/usr/bin/c++    -wall   -std=gnu++1z -o CMakeFiles/tools.dir/tools.cpp.o -c /home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp",
+  "file": "/home/mehrez/Documents/modern_cpp/ClassExamples/lec_1/tools.cpp"
+}
+]
