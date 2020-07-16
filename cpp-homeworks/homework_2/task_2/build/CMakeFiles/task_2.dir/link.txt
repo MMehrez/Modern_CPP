@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/task_2.dir/src/input_param_streams.cpp.o  -o ../bin/task_2 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_2/src/input_param_streams.cpp
+cstdlib
+-
+iostream
+-
+sstream
+-
+string
+-
+

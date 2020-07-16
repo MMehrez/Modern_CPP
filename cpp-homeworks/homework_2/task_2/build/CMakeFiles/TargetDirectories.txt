@@ -1,0 +1,3 @@
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_2/build/CMakeFiles/rebuild_cache.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_2/build/CMakeFiles/edit_cache.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_2/build/CMakeFiles/task_2.dir
