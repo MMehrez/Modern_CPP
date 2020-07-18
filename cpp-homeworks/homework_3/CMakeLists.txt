@@ -14,8 +14,11 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # create library "html_writer"
 add_library(html_writer src/html_writer_functions.cpp) # creates libhtml_writer.a
 
+# create library "image_browser"
+add_library(image_browser src/image_browser_functions.cpp) # creates libhtml_writer.a
+
 # add executable main = test_ipb_arithmetic
-add_executable(create_html src/create_html.cpp) # main.o
+add_executable(create_image_browser src/create_html.cpp) # main.o
 
 # tell the linker to bind these objects together
-target_link_libraries(create_html html_writer) # ./main
+target_link_libraries(create_image_browser html_writer image_browser) # ./main

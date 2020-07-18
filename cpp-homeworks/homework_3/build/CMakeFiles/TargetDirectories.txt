@@ -1,4 +1,5 @@
 /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/rebuild_cache.dir
 /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/edit_cache.dir
-/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/create_html.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/create_image_browser.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/image_browser.dir
 /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/html_writer.dir

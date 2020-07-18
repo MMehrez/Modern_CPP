@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/src/create_html.cpp" "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/create_html.dir/src/create_html.cpp.o"
+  "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/src/create_html.cpp" "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/create_image_browser.dir/src/create_html.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -16,6 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/html_writer.dir/DependInfo.cmake"
+  "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/build/CMakeFiles/image_browser.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

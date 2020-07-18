@@ -186,6 +186,9 @@ homework_3_SOURCE_DIR:STATIC=/home/mehrez/Documents/Modern_CPP/cpp-homeworks/hom
 //Dependencies for target
 html_writer_LIB_DEPENDS:STATIC=
 
+//Dependencies for target
+image_browser_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries

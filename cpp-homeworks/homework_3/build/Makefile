@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named create_html
+# Target rules for targets named create_image_browser
 
 # Build rule for target.
-create_html: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 create_html
-.PHONY : create_html
+create_image_browser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_image_browser
+.PHONY : create_image_browser
 
 # fast build rule for target.
-create_html/fast:
-	$(MAKE) -f CMakeFiles/create_html.dir/build.make CMakeFiles/create_html.dir/build
-.PHONY : create_html/fast
+create_image_browser/fast:
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/build
+.PHONY : create_image_browser/fast
+
+#=============================================================================
+# Target rules for targets named image_browser
+
+# Build rule for target.
+image_browser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_browser
+.PHONY : image_browser
+
+# fast build rule for target.
+image_browser/fast:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/build
+.PHONY : image_browser/fast
 
 #=============================================================================
 # Target rules for targets named html_writer
@@ -142,7 +155,7 @@ src/create_html.o: src/create_html.cpp.o
 
 # target to build an object file
 src/create_html.cpp.o:
-	$(MAKE) -f CMakeFiles/create_html.dir/build.make CMakeFiles/create_html.dir/src/create_html.cpp.o
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/src/create_html.cpp.o
 .PHONY : src/create_html.cpp.o
 
 src/create_html.i: src/create_html.cpp.i
@@ -151,7 +164,7 @@ src/create_html.i: src/create_html.cpp.i
 
 # target to preprocess a source file
 src/create_html.cpp.i:
-	$(MAKE) -f CMakeFiles/create_html.dir/build.make CMakeFiles/create_html.dir/src/create_html.cpp.i
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/src/create_html.cpp.i
 .PHONY : src/create_html.cpp.i
 
 src/create_html.s: src/create_html.cpp.s
@@ -160,7 +173,7 @@ src/create_html.s: src/create_html.cpp.s
 
 # target to generate assembly for a file
 src/create_html.cpp.s:
-	$(MAKE) -f CMakeFiles/create_html.dir/build.make CMakeFiles/create_html.dir/src/create_html.cpp.s
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/src/create_html.cpp.s
 .PHONY : src/create_html.cpp.s
 
 src/html_writer_functions.o: src/html_writer_functions.cpp.o
@@ -190,6 +203,33 @@ src/html_writer_functions.cpp.s:
 	$(MAKE) -f CMakeFiles/html_writer.dir/build.make CMakeFiles/html_writer.dir/src/html_writer_functions.cpp.s
 .PHONY : src/html_writer_functions.cpp.s
 
+src/image_browser_functions.o: src/image_browser_functions.cpp.o
+
+.PHONY : src/image_browser_functions.o
+
+# target to build an object file
+src/image_browser_functions.cpp.o:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/src/image_browser_functions.cpp.o
+.PHONY : src/image_browser_functions.cpp.o
+
+src/image_browser_functions.i: src/image_browser_functions.cpp.i
+
+.PHONY : src/image_browser_functions.i
+
+# target to preprocess a source file
+src/image_browser_functions.cpp.i:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/src/image_browser_functions.cpp.i
+.PHONY : src/image_browser_functions.cpp.i
+
+src/image_browser_functions.s: src/image_browser_functions.cpp.s
+
+.PHONY : src/image_browser_functions.s
+
+# target to generate assembly for a file
+src/image_browser_functions.cpp.s:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/src/image_browser_functions.cpp.s
+.PHONY : src/image_browser_functions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,7 +238,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... create_html"
+	@echo "... create_image_browser"
+	@echo "... image_browser"
 	@echo "... html_writer"
 	@echo "... src/create_html.o"
 	@echo "... src/create_html.i"
@@ -206,6 +247,9 @@ help:
 	@echo "... src/html_writer_functions.o"
 	@echo "... src/html_writer_functions.i"
 	@echo "... src/html_writer_functions.s"
+	@echo "... src/image_browser_functions.o"
+	@echo "... src/image_browser_functions.i"
+	@echo "... src/image_browser_functions.s"
 .PHONY : help
 
 
