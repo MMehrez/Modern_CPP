@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../api/homework_3.h
+html_writer.hpp
+../api/html_writer.hpp
+image_browser.hpp
+../api/image_browser.hpp
+
+../api/html_writer.hpp
+string
+-
+
+../api/image_browser.hpp
+array
+-
+string
+-
+tuple
+-
+vector
+-
+
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/src/html_writer_functions.cpp
+homework_3.h
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_3/src/homework_3.h
+cstdlib
+-
+iostream
+-
+sstream
+-
+string
+-
+

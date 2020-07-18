@@ -17,7 +17,7 @@ execute_process(
   OUTPUT_STRIP_TRAILING_WHITESPACE
   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
 
-add_custom_target(${PROJECT_NAME}_format ALL
+add_custom_target(homework_2_task_1_format ALL
                   COMMENT "Checking clang-format changes"
                   WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
                   COMMAND ${CLANG_FORMAT} -Werror
