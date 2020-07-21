@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/homework_4.h
+array
+-
+string
+-
+tuple
+-
+vector
+-
+
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_4/src/main.cpp
+homework_4.h
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_4/src/homework_4.h
+iostream
+-
+string
+-
+vector
+-
+
