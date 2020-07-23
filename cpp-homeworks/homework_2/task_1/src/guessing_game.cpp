@@ -14,7 +14,7 @@ std::uniform_int_distribution<int> distr(range_from, range_to);
 int main() {
   // Welcome back Mohamed :-) I love you!
   /* initialize random seed: */
-  random_number = distr(generator); // v1 in the range 0 to 99
+  random_number = distr(generator);  // v1 in the range 0 to 99
   while (1) {
     std::cout << "Enter a Number between 0 and 99:" << std::endl;
     std::cin >> my_number;

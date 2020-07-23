@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_1/build",
+  "command": "/usr/bin/c++   -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_1/include    -std=gnu++1z -o CMakeFiles/task_1.dir/src/guessing_game.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_1/src/guessing_game.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_2/task_1/src/guessing_game.cpp"
+}
+]
