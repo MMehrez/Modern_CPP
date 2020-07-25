@@ -1,0 +1,5 @@
+if(EXISTS "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/tests/opencv_example_test_tests-b858cb2.cmake")
+  include("/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/tests/opencv_example_test_tests-b858cb2.cmake")
+else()
+  add_test(opencv_example_test_NOT_BUILT-b858cb2 opencv_example_test_NOT_BUILT-b858cb2)
+endif()

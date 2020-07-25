@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/my_main.dir/src/my_main.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/my_main.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/my_main.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/display_image.dir/src/display_image.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/display_image.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/display_image.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/mat_serialization.dir/src/sifts_internal.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/sifts_internal.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/sifts_internal.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
+  "command": "/usr/bin/c++   -I/usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/mat_serialization.dir/src/serialization.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/serialization.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/serialization.cpp"
+}
+]

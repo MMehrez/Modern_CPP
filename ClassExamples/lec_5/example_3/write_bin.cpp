@@ -1,4 +1,5 @@
 #include <fstream> // for the file streams
+#include <iostream>
 #include <vector>
 using namespace std;
 
@@ -12,5 +13,6 @@ int main() {
   file.write(reinterpret_cast<char *>(&cols), sizeof(cols));
   file.write(reinterpret_cast<char *>(&vec.front()),
              vec.size() * sizeof(float));
+  cout << vec.size() << endl;
   return 0;
 }

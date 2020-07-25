@@ -1,4 +1,5 @@
 #include <fstream>  // for the file streams
+#include <iostream>
 #include <string>
 #include <tuple>
 #include <vector>
@@ -15,5 +16,10 @@ int main() {
   const std::string lenna_bin_path = "data/lenna.bin";
   auto lenna = cv::imread(lenna_path, cv::IMREAD_GRAYSCALE);
   ipb::serialization::Serialize(lenna, lenna_bin_path);
+
+  auto lenna_bin = ipb::serialization::Deserialize(lenna_bin_path);
+  if (lenna.size() == lenna_bin.size()) {
+    std::cout << "serialization successful" << std::endl;
+  }
   return 0;
 }

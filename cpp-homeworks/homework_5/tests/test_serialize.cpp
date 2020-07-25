@@ -3,6 +3,7 @@
 //
 // Copyright (c) 2020 Ignacio Vizzo, all rights reserved
 #include <filesystem>
+#include <iostream>
 #include <string>
 
 #include <catch2/catch.hpp>
@@ -13,6 +14,7 @@
 #include "sifts_internal.hpp"
 #include "utils.hpp"
 
+// namespace fs = std::filesystem;
 namespace fs = std::filesystem;
 SCENARIO("cv::Mat img serialization", "[serialization]") {
   const std::string lenna_path = "data/lenna.png";

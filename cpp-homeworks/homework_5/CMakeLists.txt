@@ -1,9 +1,13 @@
 cmake_minimum_required(VERSION 3.1)
 project(opencv_example)
+set( CMAKE_CXX_STANDARD 17) # Use c++17. 
 
 #include OpenCV
 find_package(OpenCV 4 REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) #important!
+set(CMAKE_CXX_FLAGS "-Wall") # pass a falg to the compiler
 
 # tell cmake where to look for *.hpp, *.h files
 include_directories(${PROJECT_SOURCE_DIR}/include)

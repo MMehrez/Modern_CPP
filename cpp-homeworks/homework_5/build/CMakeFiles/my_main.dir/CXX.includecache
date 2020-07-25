@@ -29,6 +29,8 @@ opencv2/core/mat.hpp
 /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/my_main.cpp
 fstream
 -
+iostream
+-
 string
 -
 tuple
