@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/sort.dir/sort.cpp.o  -o bin/sort 

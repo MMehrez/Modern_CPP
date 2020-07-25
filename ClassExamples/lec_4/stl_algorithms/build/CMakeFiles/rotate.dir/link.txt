@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/rotate.dir/rotate.cpp.o  -o bin/rotate 

@@ -9,7 +9,8 @@
 
 #include <opencv2/core/mat.hpp>
 
-namespace ipb::serialization {
+namespace ipb {
+namespace serialization {
 
 /**
  * @brief Writes the input cv::Mat(Image, SIFT, etc) to a binary file
@@ -28,6 +29,7 @@ void Serialize(const cv::Mat& m, const std::string& filename);
  */
 cv::Mat Deserialize(const std::string& filename);
 
-}  // namespace ipb::serialization
+}  // namespace serialization
+}  // namespace ipb
 
 #endif  // SERIALIZE_HPP_

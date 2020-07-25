@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/hash.cpp
+functional
+-
+iostream
+-
+string
+-
+

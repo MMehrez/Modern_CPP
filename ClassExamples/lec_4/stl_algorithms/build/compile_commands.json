@@ -1,0 +1,82 @@
+[
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/sort.dir/sort.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/sort.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/sort.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/accumulate.dir/accumulate.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/accumulate.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/accumulate.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/all_off.dir/all_off.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/all_off.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/all_off.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/transform.dir/transform.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/transform.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/transform.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/count_if.dir/count_if.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/count_if.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/count_if.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/count.dir/count.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/count.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/count.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/fill.dir/fill.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/fill.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/fill.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/hash.dir/hash.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/hash.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/hash.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/find.dir/find.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/find.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/find.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/for_each.dir/for_each.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/for_each.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/for_each.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/sample.dir/sample.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/sample.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/sample.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/max.dir/max.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/max.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/max.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/clamp.dir/clamp.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/clamp.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/clamp.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/rotate.dir/rotate.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/rotate.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/rotate.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/min_element.dir/min_element.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/min_element.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/min_element.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -g0 -O3   -std=gnu++1z -o CMakeFiles/minmax_element.dir/minmax_element.cpp.o -c /home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/minmax_element.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/minmax_element.cpp"
+}
+]

@@ -1,0 +1,5 @@
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/CMakeFiles/rebuild_cache.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/CMakeFiles/edit_cache.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/CMakeFiles/my_main.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/CMakeFiles/display_image.dir
+/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build/CMakeFiles/mat_serialization.dir

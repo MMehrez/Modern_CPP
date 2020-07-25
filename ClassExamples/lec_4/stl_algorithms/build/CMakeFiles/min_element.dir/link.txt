@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/min_element.dir/min_element.cpp.o  -o bin/min_element 

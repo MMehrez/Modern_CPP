@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_4/stl_algorithms/count_if.cpp
+algorithm
+-
+functional
+-
+iostream
+-
+iterator
+-
+vector
+-
+
