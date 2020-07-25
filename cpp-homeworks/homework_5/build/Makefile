@@ -137,6 +137,19 @@ display_image/fast:
 .PHONY : display_image/fast
 
 #=============================================================================
+# Target rules for targets named convert_dataset
+
+# Build rule for target.
+convert_dataset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convert_dataset
+.PHONY : convert_dataset
+
+# fast build rule for target.
+convert_dataset/fast:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/build
+.PHONY : convert_dataset/fast
+
+#=============================================================================
 # Target rules for targets named mat_serialization
 
 # Build rule for target.
@@ -148,6 +161,33 @@ mat_serialization: cmake_check_build_system
 mat_serialization/fast:
 	$(MAKE) -f CMakeFiles/mat_serialization.dir/build.make CMakeFiles/mat_serialization.dir/build
 .PHONY : mat_serialization/fast
+
+src/convert_dataset.o: src/convert_dataset.cpp.o
+
+.PHONY : src/convert_dataset.o
+
+# target to build an object file
+src/convert_dataset.cpp.o:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.o
+.PHONY : src/convert_dataset.cpp.o
+
+src/convert_dataset.i: src/convert_dataset.cpp.i
+
+.PHONY : src/convert_dataset.i
+
+# target to preprocess a source file
+src/convert_dataset.cpp.i:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.i
+.PHONY : src/convert_dataset.cpp.i
+
+src/convert_dataset.s: src/convert_dataset.cpp.s
+
+.PHONY : src/convert_dataset.s
+
+# target to generate assembly for a file
+src/convert_dataset.cpp.s:
+	$(MAKE) -f CMakeFiles/convert_dataset.dir/build.make CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.s
+.PHONY : src/convert_dataset.cpp.s
 
 src/display_image.o: src/display_image.cpp.o
 
@@ -267,7 +307,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... my_main"
 	@echo "... display_image"
+	@echo "... convert_dataset"
 	@echo "... mat_serialization"
+	@echo "... src/convert_dataset.o"
+	@echo "... src/convert_dataset.i"
+	@echo "... src/convert_dataset.s"
 	@echo "... src/display_image.o"
 	@echo "... src/display_image.i"
 	@echo "... src/display_image.s"

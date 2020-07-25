@@ -21,5 +21,18 @@ int main() {
   if (lenna.size() == lenna_bin.size()) {
     std::cout << "serialization successful" << std::endl;
   }
+  // std::cout << lenna.at<double>(500, 500) << std::endl;
+  // std::cout << lenna_bin.at<double>(500, 500) << std::endl;
+
+  // the following is to convert a data set instead of just an image
+  const std::string img_path =
+      "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/data/"
+      "freiburg/images/";
+  const std::string bin_path =
+      "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/data/"
+      "freiburg/bin/";
+  ipb::serialization::sifts::ConvertDataset(img_path);
+  std::vector<cv::Mat> load = ipb::serialization::sifts::LoadDataset(bin_path);
+
   return 0;
 }

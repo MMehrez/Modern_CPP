@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+../include/convert_dataset.hpp
+filesystem
+-
+string
+-
+vector
+-
+opencv2/core/mat.hpp
+-
+
 ../include/homework_5.h
+convert_dataset.hpp
+../include/convert_dataset.hpp
 serialize.hpp
 ../include/serialize.hpp
 sifts_internal.hpp

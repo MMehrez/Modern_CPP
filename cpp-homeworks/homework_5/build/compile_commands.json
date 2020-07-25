@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
+  "command": "/usr/bin/c++   -isystem /usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/convert_dataset.dir/src/convert_dataset.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/convert_dataset.cpp",
+  "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/convert_dataset.cpp"
+},
+{
+  "directory": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/build",
   "command": "/usr/bin/c++   -I/usr/local/include/opencv4 -I/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/include  -Wall   -std=gnu++1z -o CMakeFiles/mat_serialization.dir/src/sifts_internal.cpp.o -c /home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/sifts_internal.cpp",
   "file": "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/src/sifts_internal.cpp"
 },

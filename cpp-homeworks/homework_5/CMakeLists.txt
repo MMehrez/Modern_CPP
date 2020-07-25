@@ -19,6 +19,8 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 # create library "compute_sifts"
 add_library(mat_serialization src/sifts_internal.cpp src/serialization.cpp) # creates libcompute_sifts.a
 
+add_library(convert_dataset src/convert_dataset.cpp) # creates libcompute_sifts.a
+target_link_libraries(convert_dataset mat_serialization ${OpenCV_LIBS})
 # add_library(mat_serialization src/serialization.cpp) # creates libcompute_sifts.a
 # target_link_libraries(mat_serialization -lcompute_sifts)
 
@@ -30,7 +32,7 @@ target_link_libraries(display_image ${OpenCV_LIBS})
 # target_link_libraries(display_sifts ${OpenCV_LIBS} mat_serialization)
 
 add_executable(my_main src/my_main.cpp)
-target_link_libraries(my_main ${OpenCV_LIBS} mat_serialization)
+target_link_libraries(my_main ${OpenCV_LIBS} mat_serialization convert_dataset)
 
 # add subdirectory for another CMakeLists.txt file
 # add_subdirectory(tests)
