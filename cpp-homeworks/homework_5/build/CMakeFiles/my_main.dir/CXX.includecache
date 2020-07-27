@@ -43,6 +43,8 @@ fstream
 -
 iostream
 -
+locale
+-
 string
 -
 tuple

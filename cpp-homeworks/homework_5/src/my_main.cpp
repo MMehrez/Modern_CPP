@@ -1,5 +1,6 @@
 #include <fstream>  // for the file streams
 #include <iostream>
+#include <locale>
 #include <string>
 #include <tuple>
 #include <vector>
@@ -31,8 +32,15 @@ int main() {
   const std::string bin_path =
       "/home/mehrez/Documents/Modern_CPP/cpp-homeworks/homework_5/data/"
       "freiburg/bin/";
+  // const std::string img_path = // the data set to be converted
+  //     "/home/mehrez/Downloads/images-freiburg-x10/data1/";
+  // const std::string bin_path =
+  //     "/home/mehrez/Downloads/images-freiburg-x10/bin/";
   ipb::serialization::sifts::ConvertDataset(img_path);
   std::vector<cv::Mat> load = ipb::serialization::sifts::LoadDataset(bin_path);
+  std::cout << "the size of the loaded data is " << load.size() << std::endl;
+  std::cout << "the size of one item in the loaded data is  " << load[1].size()
+            << std::endl;
 
   return 0;
 }
