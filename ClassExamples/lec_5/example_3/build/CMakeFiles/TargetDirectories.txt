@@ -1,3 +1,0 @@
-/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_5/example_3/build/CMakeFiles/rebuild_cache.dir
-/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_5/example_3/build/CMakeFiles/edit_cache.dir
-/home/mehrez/Documents/Modern_CPP/ClassExamples/lec_5/example_3/build/CMakeFiles/write_read_cv_mat.dir
