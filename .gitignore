@@ -1,7 +1,5 @@
 build/*
 
 
-*.cmake
-*.make
 
-Makefile
+
