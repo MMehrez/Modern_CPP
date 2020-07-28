@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/accumulate.dir/accumulate.cpp.o  -o bin/accumulate 

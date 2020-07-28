@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/count_if.dir/count_if.cpp.o  -o bin/count_if 

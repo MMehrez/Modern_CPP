@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/clamp.dir/clamp.cpp.o  -o bin/clamp 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -Wextra -g0 -O3   CMakeFiles/all_off.dir/all_off.cpp.o  -o bin/all_off 
