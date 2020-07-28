@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libcompute_sifts.a  CMakeFiles/compute_sifts.dir/src/compute_sifts.cpp.o
-/usr/bin/ranlib ../lib/libcompute_sifts.a
