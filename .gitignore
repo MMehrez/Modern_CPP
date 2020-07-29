@@ -4,4 +4,6 @@
 
 **/build/*
 
-**/*.txt
+#**/*.txt
+
+testignore.txt
